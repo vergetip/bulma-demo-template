@@ -1,0 +1,26 @@
+.front {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/gallery2.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.hero-body{
+    background-color: transparent !important;
+	margin-top: 100px;
+	height: 300px;
+}
+
+.navbar-link::after {
+    border-color: #00993d;
+}
+.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
+    color: #00993d;
+}
+a {
+    color: #00993d;
+}
+
+.footer {
+    padding: 2rem 1.5rem 2rem;
+}

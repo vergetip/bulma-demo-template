@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hellenic Diaspora - Artists</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <!--link rel="stylesheet" href="assets/css/bulmaswatch.min.css"-->
+    <!--link rel="stylesheet" href="assets/css/mystyles.scss"-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  </head>
+  <body background="assets/img/concrete-1.jpg">
+
+        <nav class="navbar is-fixed-top has-shadow is-spaced">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item is-1 logo" href="">
+			<object type="image/svg+xml" data="assets/img/diaspora-logo.svg" width="36" height="36"></object>
+              &nbsp;HELLENIC DIASPORA
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active" href="index.html">
+                Home
+              </a>
+              <a class="navbar-item">
+                About
+              </a>
+              <div class="navbar-item has-dropdown is-hoverable">
+                  <div class="navbar-link">
+                    Collection
+                  </div>
+                  <div id="moreDropdown" class="navbar-dropdown ">
+                    <a class="navbar-item " href="#">
+                      <div class="level is-mobile">
+                        <div class="level-left">
+                          <div class="level-item">
+                            <p>
+                              <strong>Artists</strong>
+                              <br>
+                              <small>Browse the artworks by artist</small>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              <a class="navbar-item">
+                Contact
+              </a>				
+            </div>
+          </div>
+        </div>
+      </nav>
+ 
+
+<section class="section" id="contact"style="padding-top: 120px;">
+	<div class="container">		
+		<div class="notification columns is-multiline">
+			<div class="column is-8 is-offset-8 center is-hidden-desktop"> 
+				<h2 class="title is-1">Contact</h2>
+			</div>
+			<div class="column is-4 is-offset-4">
+				We're friendly and available to contact. Reach out to us anytime and we'll happily answer your question.				<br/><br/>
+				<form id="contact-form" action="process.php" method="post">
+				<input type="hidden" name="action" value="submit_enquiry" />
+				<div class="field">
+					<label class="label">Name</label>
+					<div class="control">
+						<input class="input" type="text" required="required" name="fullname">
+					</div>
+				</div>
+				<div class="field">
+					<label class="label">Subject</label>
+					<div class="control is-expanded">
+						<div class="select is-fullwidth">
+							<select required="required" name="subject">
+								<option value="Enquiry">Enquiry</option>
+								<option value="Membership">Membership</option>
+								<option value="Promotion">Promotion</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="field">
+					<label class="label">E-mail</label>
+					<div class="control">
+						<input class="input" type="email" required="required" name="email">
+					</div>
+				</div>
+				<div class="field">
+					<label class="label">Phone</label>
+					<div class="control">
+						<input class="input" type="text" required="required" name="phone">
+					</div>
+				</div>
+				<div class="field">
+					<label class="label">Message</label>
+					<div class="control">
+						<textarea class="textarea" name="comments" required="required"></textarea>
+					</div>
+				</div>
+				<div class="g-recaptcha" data-sitekey=""></div>
+				<div class="control center">
+					<br/>
+					<input type="submit" class="button-orange" value="Send" data-label="Send" />
+					<p class="form-error" style="display: none;"><br />Error submiting. Please try again.</p>
+					
+				</div>
+				</form>
+				<br/>
+				<p id="alert" style="font-size: 1rem; font-weight: 600;">&nbsp;</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="content has-text-centered">
+			<p>
+				© <strong>Hellenic Diaspora</strong> 2018<br> <!--a href="/faq" class="">FAQ</a> | 
+	        	<a href="/terms-of-service" class="">Terms of Service</a> | 
+	        	<a href="/privacy-policy" class="">Privacy Policy</a-->
+			</p>
+			<p>
+				<a href="https://www.youtube.com/channel/UCjxddb-LGx-hI2OF4XxITuw" target="_blank" class="icon is-medium">
+				<svg class="svg-inline--fa fa-youtube fa-w-18 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+				</svg><!-- <i class="fab fa-youtube fa-lg"></i> --></a> 
+				<a href="#" target="_blank" class="icon is-medium">
+				<svg class="svg-inline--fa fa-facebook-square fa-w-14 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="facebook-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 80v352c0 26.5-21.5 48-48 48h-85.3V302.8h60.6l8.7-67.6h-69.3V192c0-19.6 5.4-32.9 33.5-32.9H384V98.7c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9H184v67.6h60.9V480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z"></path></svg>
+				<!-- <i class="fab fa-facebook-square fa-lg"></i> --></a>
+			</p> 
+		</div>
+    </div>
+  </footer>			
+  
+  </body>
+</html>

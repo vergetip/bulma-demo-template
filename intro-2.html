@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="21;url=http://hellenicdiaspora.org/" />    
+    <title>Hellenic Diaspora</title>
+<style>
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+
+.skip{
+    float: right;
+    padding-right: 20px;
+}
+.skip a{
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+</style>
+  </head>
+<body>
+    
+        <div class="fullscreen-bg">
+            <video loop muted autoplay poster="assets/img/concrete-1.jpg" class="fullscreen-bg__video">
+                <source src="http://hellenicdiaspora.org/assets/videos/DIASPORA_SPLASH_P01.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="skip"><a href="http://hellenicdiaspora.org/">Skip</a></div>
+            
+        
+</body>  
+</html>

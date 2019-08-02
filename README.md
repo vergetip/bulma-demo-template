@@ -1,2 +1,2 @@
-# hellenic-diaspora-template
-Simple html template from Hellenic Diaspora
+# bulma-demo-template
+Simple html template created with bulma css framework to display artists and their artworks
